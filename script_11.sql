@@ -1,0 +1,1 @@
+UPDATE CourseInstructor SET PersonID=(SELECT PersonID FROM Person Where Person.PersonID=1) WHERE PersonID=4;
